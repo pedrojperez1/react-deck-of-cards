@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import Deck from "./Deck";
+import AutoDeck from "./AutoDeck";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Manual Deck</h1>
+      <Deck />
+      <h1>Auto Deck</h1>
+      <AutoDeck />
     </div>
   );
 }
